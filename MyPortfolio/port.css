@@ -1,0 +1,133 @@
+/* port.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #111; /* Dark background color */
+  color: #fff; /* White text color */
+}
+
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+  position: relative;
+  background-color: #333; /* Darker background for header */
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Other styles above */
+
+/* Other styles above */
+
+header ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 20px; /* Add margin bottom to create space between sections */
+}
+
+header ul h2 {
+  color: #fff; /* White color for h2 */
+  font-size: 24px; /* Adjust font size as needed */
+  margin: 0; /* Remove default margin */
+}
+
+header ul h3 {
+  color: #ccc; /* Light grey color for h3 */
+  font-size: 18px; /* Smaller font size for h3 */
+  margin: 0; /* Remove default margin */
+}
+
+/* Other styles above */
+
+header {
+  /* Your existing styles */
+}
+
+header nav ul {
+  /* Your existing styles */
+}
+
+header nav ul li {
+  /* Your existing styles */
+}
+
+/* Style specifically for the Instagram logo */
+/* Style specifically for the Instagram logo */
+header nav ul li img {
+  width: 20px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Adjust spacing */
+  animation: glow 1s ease-in-out infinite alternate; /* Glowing animation */
+}
+
+/* Glowing animation */
+@keyframes glow {
+  from {
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff; /* Initial glow effect */
+  }
+  to {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff; /* Glowing effect */
+  }
+}
+
+
+header nav ul li span {
+  font-size: 14px; /* Adjust font size */
+  color: #fff;
+  vertical-align: top; /* Color for @_pvt.me text */
+}
+
+
+
+
+
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: skyblue; /* Red color for headers */
+}
+
+section {
+  padding: 20px;
+  width: 100%; /* Full width */
+  background-color: #333; /* Darker background for sections */
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* White shadow effect */
+}
+
+section p {
+  color: #fff; /* White color for paragraph text */
+}
+
+section:not(:last-child) {
+  margin-bottom: 0; /* Remove margin for the last section */
+}
